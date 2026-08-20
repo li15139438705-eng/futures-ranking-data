@@ -88,3 +88,24 @@ th {
 .negative {
   color: #16a34a;
 }
+.download-button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background: #1d4ed8;
+}
+
+select,
+input[type="date"] {
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  background: white;
+}
