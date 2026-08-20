@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>历史数据下载 - 期货龙虎榜数据中心</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="header">
+  <h1>期货龙虎榜数据中心</h1>
+
+  <nav class="nav">
+    <a href="index.html">首页</a>
+    <a href="ranking.html">龙虎榜数据</a>
+    <a href="download.html">历史数据下载</a>
+    <a href="#">品种中心</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section class="card">
+    <h2>历史数据下载</h2>
+    <p>按品种、日期范围和数据类型下载历史龙虎榜数据。</p>
+  </section>
+
+  <section class="card">
+
+    <h2>下载条件</h2>
+
+    <p>
+      品种：
+      <select>
+        <option>不锈钢 SS</option>
+      </select>
+    </p>
+
+    <p>
+      开始日期：
+      <input type="date" value="2026-08-01">
+    </p>
+
+    <p>
+      结束日期：
+      <input type="date" value="2026-08-20">
+    </p>
+
+    <p>
+      数据类型：
+      <select>
+        <option>日龙虎榜</option>
+        <option>龙虎榜汇总</option>
+        <option>持仓总榜</option>
+        <option>全部数据</option>
+      </select>
+    </p>
+
+    <p>
+      文件格式：
+      <select>
+        <option>Excel (.xlsx)</option>
+        <option>CSV (.csv)</option>
+      </select>
+    </p>
+
+    <p>
+      <button class="download-button">
+        下载历史数据
+      </button>
+    </p>
+
+  </section>
+
+
+  <section class="card">
+
+    <h2>最近可下载数据</h2>
+
+    <table>
+
+      <thead>
+        <tr>
+          <th>日期</th>
+          <th>品种</th>
+          <th>数据类型</th>
+          <th>状态</th>
+          <th>下载</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td>2026-08-20</td>
+          <td>不锈钢 SS</td>
+          <td>龙虎榜数据</td>
+          <td>已更新</td>
+          <td><a href="#">下载</a></td>
+        </tr>
+
+        <tr>
+          <td>2026-08-19</td>
+          <td>不锈钢 SS</td>
+          <td>龙虎榜数据</td>
+          <td>已更新</td>
+          <td><a href="#">下载</a></td>
+        </tr>
+
+        <tr>
+          <td>2026-08-18</td>
+          <td>不锈钢 SS</td>
+          <td>龙虎榜数据</td>
+          <td>已更新</td>
+          <td><a href="#">下载</a></td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </section>
+
+</main>
+
+</body>
+</html>
