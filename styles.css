@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  background: #f5f7fa;
+  color: #1f2937;
+}
+
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 18px 40px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #0f172a;
+}
+
+.nav {
+  margin-top: 14px;
+}
+
+.nav a {
+  margin-right: 24px;
+  text-decoration: none;
+  color: #475569;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  color: #2563eb;
+}
+
+.container {
+  width: 1180px;
+  max-width: calc(100% - 40px);
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.market-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.market-button:hover {
+  background: #1d4ed8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th, td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+th {
+  background: #f8fafc;
+  color: #475569;
+}
+
+.positive {
+  color: #dc2626;
+}
+
+.negative {
+  color: #16a34a;
+}
