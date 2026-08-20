@@ -1,11 +1,149 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>期货龙虎榜数据中心</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>期货龙虎榜数据中心</h1>
-  <p>网站建设中</p>
+
+  <header class="header">
+
+    <h1>期货龙虎榜数据中心</h1>
+
+    <nav class="nav">
+      <a href="#">首页</a>
+      <a href="#">龙虎榜数据</a>
+      <a href="#">历史数据下载</a>
+      <a href="#">品种中心</a>
+    </nav>
+
+  </header>
+
+
+  <main class="container">
+
+    <section class="card">
+
+      <h2>龙虎榜数据查询</h2>
+
+      <p>
+        提供期货品种每日龙虎榜、汇总龙虎榜及持仓总榜数据查询与历史数据下载。
+      </p>
+
+    </section>
+
+
+    <section class="card">
+
+      <h2>选择日期</h2>
+
+      <input type="date" value="2026-08-20">
+
+    </section>
+
+
+    <section class="card">
+
+      <h2>期货品种</h2>
+
+      <a class="market-button" href="#">
+        不锈钢 SS
+      </a>
+
+    </section>
+
+
+    <section class="card">
+
+      <h2>2026年8月20日 不锈钢龙虎榜</h2>
+
+      <p>
+        当前为网站测试数据，后续将接入真实龙虎榜数据库。
+      </p>
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>期货公司</th>
+            <th>多头持仓</th>
+            <th>多头增减</th>
+            <th>空头持仓</th>
+            <th>空头增减</th>
+            <th>净持仓</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>永安期货</td>
+            <td>12,500</td>
+            <td class="positive">+800</td>
+            <td>9,300</td>
+            <td class="negative">-200</td>
+            <td class="positive">+3,200</td>
+          </tr>
+
+          <tr>
+            <td>国泰君安</td>
+            <td>10,200</td>
+            <td class="negative">-300</td>
+            <td>11,800</td>
+            <td class="positive">+500</td>
+            <td class="negative">-1,600</td>
+          </tr>
+
+          <tr>
+            <td>中信期货</td>
+            <td>8,650</td>
+            <td class="positive">+420</td>
+            <td>7,900</td>
+            <td class="negative">-160</td>
+            <td class="positive">+750</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </section>
+
+
+    <section class="card">
+
+      <h2>数据类型</h2>
+
+      <p>
+        <a href="#">日龙虎榜</a>
+        &nbsp;&nbsp;
+        <a href="#">汇总龙虎榜</a>
+        &nbsp;&nbsp;
+        <a href="#">持仓总榜</a>
+      </p>
+
+    </section>
+
+
+    <section class="card">
+
+      <h2>历史数据下载</h2>
+
+      <p>
+        后续支持按品种、日期范围和数据类型下载 Excel 数据。
+      </p>
+
+    </section>
+
+  </main>
+
+
 </body>
+
 </html>
