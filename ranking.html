@@ -24,7 +24,7 @@
 
   <section class="card">
     <h2>龙虎榜数据</h2>
-    <p>选择日期、品种和数据类型查看每日龙虎榜数据。</p>
+    <p>当前已接入不锈钢真实龙虎榜测试数据。</p>
   </section>
 
   <section class="card">
@@ -32,7 +32,7 @@
 
     <p>
       日期：
-      <input type="date" value="2026-08-20">
+      <input type="date" value="2026-08-19">
     </p>
 
     <p>
@@ -43,57 +43,68 @@
     </p>
 
     <p>
-      数据类型：
-      <select>
-        <option>日龙虎榜</option>
-        <option>龙虎榜汇总</option>
-        <option>持仓总榜</option>
-      </select>
+      合约：
+      <select id="contractSelect"></select>
     </p>
   </section>
 
   <section class="card">
-
-    <h2>2026年8月20日 不锈钢龙虎榜</h2>
+    <h2>合约龙虎榜</h2>
 
     <table>
       <thead>
         <tr>
-          <th>期货公司</th>
-          <th>多头持仓</th>
-          <th>多头增减</th>
-          <th>空头持仓</th>
-          <th>空头增减</th>
-          <th>净持仓</th>
+          <th>公司（多）</th>
+          <th>净多头</th>
+          <th>净多增减</th>
+
+          <th>公司（空）</th>
+          <th>净空头</th>
+          <th>净空增减</th>
         </tr>
       </thead>
 
-      <tbody>
-
-        <tr>
-          <td>永安期货</td>
-          <td>12,500</td>
-          <td class="positive">+800</td>
-          <td>9,300</td>
-          <td class="negative">-200</td>
-          <td class="positive">+3,200</td>
-        </tr>
-
-        <tr>
-          <td>国泰君安</td>
-          <td>10,200</td>
-          <td class="negative">-300</td>
-          <td>11,800</td>
-          <td class="positive">+500</td>
-          <td class="negative">-1,600</td>
-        </tr>
-
-      </tbody>
+      <tbody id="rankingBody"></tbody>
     </table>
+  </section>
 
+  <section class="card">
+    <h2>持仓总榜 - 多头</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>排名</th>
+          <th>公司</th>
+          <th>净多头</th>
+          <th>净增减</th>
+        </tr>
+      </thead>
+
+      <tbody id="totalLongBody"></tbody>
+    </table>
+  </section>
+
+  <section class="card">
+    <h2>持仓总榜 - 空头</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>排名</th>
+          <th>公司</th>
+          <th>净空头</th>
+          <th>净增减</th>
+        </tr>
+      </thead>
+
+      <tbody id="totalShortBody"></tbody>
+    </table>
   </section>
 
 </main>
+
+<script src="app.js"></script>
 
 </body>
 </html>
