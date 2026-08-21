@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-19",
+  "symbol": "SS",
+  "name": "不锈钢",
+  "contracts": {
+    "ss2609": {
+      "long": [
+        {
+          "company": "国泰君安",
+          "position": 1504,
+          "change": -72
+        },
+        {
+          "company": "银河期货",
+          "position": 1135,
+          "change": 5
+        },
+        {
+          "company": "国元期货",
+          "position": 1120,
+          "change": -11
+        }
+      ],
+      "short": [
+        {
+          "company": "中信期货",
+          "position": 1079,
+          "change": 187
+        },
+        {
+          "company": "中辉期货",
+          "position": 778,
+          "change": -2
+        },
+        {
+          "company": "创元期货",
+          "position": 664,
+          "change": -80
+        }
+      ]
+    }
+  },
+  "totalRanking": {
+    "long": [
+      {
+        "rank": 1,
+        "company": "国联期货",
+        "position": 4483,
+        "change": 1767
+      },
+      {
+        "rank": 2,
+        "company": "平安期货",
+        "position": 3300,
+        "change": -87
+      },
+      {
+        "rank": 3,
+        "company": "永安期货",
+        "position": 3215,
+        "change": 142
+      }
+    ],
+    "short": [
+      {
+        "rank": 1,
+        "company": "中信期货",
+        "position": 5560,
+        "change": -140
+      },
+      {
+        "rank": 2,
+        "company": "中粮期货",
+        "position": 5352,
+        "change": -604
+      },
+      {
+        "rank": 3,
+        "company": "中金财富",
+        "position": 3084,
+        "change": -5
+      }
+    ]
+  }
+}
